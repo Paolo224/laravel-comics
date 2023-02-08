@@ -6,7 +6,7 @@
             @foreach ($comics as $comic)
             <div class="col-2">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="{{$comic['thumb']}}" alt="">
                     <p>
                         {{$comic['title']}}
                     </p>
